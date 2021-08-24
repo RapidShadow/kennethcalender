@@ -44,12 +44,12 @@ document.getElementById("submit").onclick = function(){
     let tops = document.getElementById("tops").value;
     let bottoms = document.getElementById("bottoms").value;
     let shoes = document.getElementById("shoes").value;
-  //   calenderRef.child(date).set({
-  //     Date : date,
-  //     Pants : bottoms,
-  //     Shoes : shoes,
-  //     Top : tops
-  // });
+     calenderRef.child(date).set({
+       Date : date,
+       Pants : bottoms,
+       Shoes : shoes,
+       Top : tops
+   });
 
   //Alert to that has acknowledge it has been sumbited
   window.alert("form has been sumbited");

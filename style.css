@@ -1,3 +1,44 @@
+
+#header{
+  height: 30vh;
+  width: 100vw;
+  background-color:#6BBAA7;
+  color:white;
+  text-align: center;
+}
+.modal-title{
+  color:black;
+}
 h6 {
     margin : 8px 8px 8px 0px;
+    color:black;
+    text-align: left;
+}
+#cards{
+  margin-left: 3.5%;
+  text-align: left;
+  margin-top:10px;
+}
+.card{
+  display:inline-block;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  vertical-align: top;
+}
+.card-body{
+  height: 30vh;
+  font-family:"Questrial";
+  border-style:none;
+  background-color: #6c648b;
+  color:white;
+}
+.btn-primary{
+  background-color:#FBA100;
+
+  border-color:white;
+}
+.btn-primary:hover{
+    background-color:#6c648b;
+    border-color: white;
 }
